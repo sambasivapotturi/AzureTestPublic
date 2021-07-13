@@ -106,6 +106,7 @@
 					"sheetName": "Orders",
 					"location": {
 						"type": "AzureBlobStorageLocation",
+						"fileName": "SuperStoreUS-2015.xlsx",
 						"container": "sambucontainer"
 					}
 				},
@@ -234,7 +235,6 @@
 								"storeSettings": {
 									"type": "AzureBlobStorageReadSettings",
 									"recursive": true,
-									"wildcardFileName": "SuperStoreUS-2015.xlsx",
 									"enablePartitionDiscovery": false
 								}
 							},
