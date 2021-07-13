@@ -1,0 +1,122 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Orders",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SuperStoreUS-2015.xlsx",
+				"container": "sambucontainer"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Row ID",
+				"type": "String"
+			},
+			{
+				"name": "Order Priority",
+				"type": "String"
+			},
+			{
+				"name": "Discount",
+				"type": "String"
+			},
+			{
+				"name": "Unit Price",
+				"type": "String"
+			},
+			{
+				"name": "Shipping Cost",
+				"type": "String"
+			},
+			{
+				"name": "Customer ID",
+				"type": "String"
+			},
+			{
+				"name": "Customer Name",
+				"type": "String"
+			},
+			{
+				"name": "Ship Mode",
+				"type": "String"
+			},
+			{
+				"name": "Customer Segment",
+				"type": "String"
+			},
+			{
+				"name": "Product Category",
+				"type": "String"
+			},
+			{
+				"name": "Product Sub-Category",
+				"type": "String"
+			},
+			{
+				"name": "Product Container",
+				"type": "String"
+			},
+			{
+				"name": "Product Name",
+				"type": "String"
+			},
+			{
+				"name": "Product Base Margin",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "Region",
+				"type": "String"
+			},
+			{
+				"name": "State or Province",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "Postal Code",
+				"type": "String"
+			},
+			{
+				"name": "Order Date",
+				"type": "String"
+			},
+			{
+				"name": "Ship Date",
+				"type": "String"
+			},
+			{
+				"name": "Profit",
+				"type": "String"
+			},
+			{
+				"name": "Quantity ordered new",
+				"type": "String"
+			},
+			{
+				"name": "Sales",
+				"type": "String"
+			},
+			{
+				"name": "Order ID",
+				"type": "String"
+			}
+		]
+	}
+}
