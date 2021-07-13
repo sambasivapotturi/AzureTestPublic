@@ -23,11 +23,30 @@
 							"enablePartitionDiscovery": false
 						}
 					},
-					"enableStaging": false
+					"sink": {
+						"type": "AzureSqlSink",
+						"tableOption": "autoCreate",
+						"disableMetricsCollection": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": true
+						}
+					}
 				},
 				"inputs": [
 					{
-						"referenceName": "Excel1",
+						"referenceName": "Excel1_Orders_Sheet",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureSqlTable1_Notable",
 						"type": "DatasetReference"
 					}
 				]
