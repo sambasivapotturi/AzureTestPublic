@@ -13,7 +13,8 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "SuperStoreUS-2015.xlsx",
 				"container": "sambucontainer"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": [
 			{
