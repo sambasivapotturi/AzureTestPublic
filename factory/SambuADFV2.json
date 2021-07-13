@@ -1,0 +1,9 @@
+{
+	"name": "SambuADFV2",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2770480c-2cef-4832-b517-bed8e06ce56b",
+		"tenantId": "8faa3836-5ef7-4bcb-a38e-3903c9ca4435"
+	}
+}
