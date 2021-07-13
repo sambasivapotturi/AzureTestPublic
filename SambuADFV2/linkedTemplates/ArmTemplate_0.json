@@ -103,7 +103,7 @@
 				"annotations": [],
 				"type": "Excel",
 				"typeProperties": {
-					"sheetName": "Orders",
+					"sheetName": "Returns",
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": "SuperStoreUS-2015.xlsx",
@@ -249,7 +249,7 @@
 								"typeConversion": true,
 								"typeConversionSettings": {
 									"allowDataTruncation": true,
-									"treatBooleanAsNumber": false
+									"treatBooleanAsNumber": true
 								}
 							}
 						},
