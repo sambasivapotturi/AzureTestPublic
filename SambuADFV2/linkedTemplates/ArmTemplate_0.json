@@ -108,7 +108,8 @@
 						"type": "AzureBlobStorageLocation",
 						"fileName": "SuperStoreUS-2015.xlsx",
 						"container": "sambucontainer"
-					}
+					},
+					"firstRowAsHeader": true
 				},
 				"schema": [
 					{
@@ -240,7 +241,6 @@
 							},
 							"sink": {
 								"type": "AzureSqlSink",
-								"tableOption": "autoCreate",
 								"disableMetricsCollection": false
 							},
 							"enableStaging": false,
