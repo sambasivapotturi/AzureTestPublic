@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "HighPreorityOrders_Sink.csv",
 				"container": "sambucontainer"
 			},
 			"columnDelimiter": "\t",
