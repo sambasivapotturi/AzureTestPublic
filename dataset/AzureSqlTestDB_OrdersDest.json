@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable1_Notable",
+	"name": "AzureSqlTestDB_OrdersDest",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",

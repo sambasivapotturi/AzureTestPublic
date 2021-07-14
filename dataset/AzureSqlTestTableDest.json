@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "AzureSqlTestTableDest",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",

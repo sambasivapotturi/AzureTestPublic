@@ -71,7 +71,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "AzureSqlTestTableDest",
 						"type": "DatasetReference"
 					}
 				]
@@ -429,7 +429,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1_Notable",
+						"referenceName": "AzureSqlTestDB_OrdersDest",
 						"type": "DatasetReference"
 					}
 				]
@@ -464,6 +464,19 @@
 					},
 					"traceLevel": "Fine"
 				}
+			},
+			{
+				"name": "LookupAct4Trancate",
+				"type": "Lookup",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": []
 			}
 		],
 		"annotations": []
